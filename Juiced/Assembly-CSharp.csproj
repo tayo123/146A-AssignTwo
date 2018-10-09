@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HitByBullet.cs" />
+    <Compile Include="Assets\PowerUpSpawner.cs" />
+    <Compile Include="Assets\Scripts\BlockSpawner.cs" />
     <Compile Include="Assets\Scripts\Credits.cs" />
     <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
@@ -70,6 +73,7 @@
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Shoot.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/olutayofalase/Documents/Stanford/Classes/Autumn_18/CS146/AssignTwo/Juiced/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -288,6 +292,21 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/olutayofalase/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps">
+      <HintPath>/Users/olutayofalase/Library/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>/Users/olutayofalase/Library/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore">
+      <HintPath>/Users/olutayofalase/Library/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>/Users/olutayofalase/Library/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>/Users/olutayofalase/Library/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
