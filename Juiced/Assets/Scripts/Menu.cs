@@ -4,6 +4,11 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour {
 
     public void StartGame () {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Level01");
+    }
+
+    public void StartTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
     }
 }

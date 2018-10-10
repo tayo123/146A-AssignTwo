@@ -76,6 +76,8 @@
     <Compile Include="Assets\Scripts\PowerUpSpawner.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
+    <Compile Include="Assets\TutorialComplete.cs" />
+    <Compile Include="Assets\TutorialManager.cs" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>/Users/olutayofalase/Documents/Stanford/Classes/Autumn_18/CS146/AssignTwo/Juiced/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>

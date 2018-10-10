@@ -5,15 +5,16 @@ public class BlockSpawner : MonoBehaviour {
     public Transform[] spawnPoints;
     public GameObject obstaclePrefab;
     public Transform player;
-    private float distanceToSpawn = 0f;
-    public float distanceBetweenWaves = 100f;
+    private float timeToSpawn = 0f;
+    public float timeBetweenWaves = 2f;
+    public float distanceBetweenWaves = 20f;
 
     void Update()
     {
-        if (player.position.z >= distanceToSpawn) {
+        if (Time.time >= timeToSpawn) {
             transform.position = new Vector3(transform.position.x, transform.position.y, player.position.z + distanceBetweenWaves);
             SpawnBlocks();
-            distanceToSpawn = player.position.z + distanceBetweenWaves;
+            timeToSpawn = Time.time + timeBetweenWaves;
         }
 
     }
