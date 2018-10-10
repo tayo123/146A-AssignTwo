@@ -7,6 +7,8 @@ TagManager:
   - Obstacle
   - PowerUp
   - Bullet
+  - Enemy
+  - Side
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - Player
+  - Bullet
   - 
   - 
   - 

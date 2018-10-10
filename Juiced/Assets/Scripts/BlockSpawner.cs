@@ -20,16 +20,19 @@ public class BlockSpawner : MonoBehaviour {
 
 
     void SpawnBlocks() {
-        //int randomIndex = Random.Range(0, spawnPoints.Length);
-        int randomIndex = 3;
-        for (int i = 0; i < spawnPoints.Length; i++)
-        {
-            if (randomIndex != i)
-            {
-                var obstacle = (GameObject)Instantiate(obstaclePrefab, spawnPoints[i].position, Quaternion.identity);
-                Destroy(obstacle, 5f);
-            }
-        }
+        int randomIndex = Random.Range(0, spawnPoints.Length);
+
+        //for (int i = 0; i < spawnPoints.Length; i++)
+        //{
+        //    if (i == randomIndex_1 || i == randomIndex_2 || i == randomIndex_3)
+        //    {
+        //        var obstacle = (GameObject)Instantiate(obstaclePrefab, spawnPoints[i].position, Quaternion.identity);
+        //        Destroy(obstacle, 5f);
+        //    }
+        //}
+
+        var obstacle = (GameObject)Instantiate(obstaclePrefab, spawnPoints[randomIndex].position, Quaternion.identity);
+        Destroy(obstacle, 5f);
 
     }
 

@@ -14,12 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level01.unity
     guid: 43de4ff35645447f99a10354f6e6850a
-  - enabled: 1
-    path: Assets/Level02.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/a721b70d177e44373b6f718b9e681a1f
     guid: a721b70d177e44373b6f718b9e681a1f
   - enabled: 1
-    path: Assets/Level03.unity
+    path: Assets/Level02.unity
+    guid: 535b2ce66b27b44668fd8c841cf4e745
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/c771777217d0c48ffabc55cbad19cf9f
     guid: c771777217d0c48ffabc55cbad19cf9f
+  - enabled: 1
+    path: Assets/Level03.unity
+    guid: e1299155e6cc443119e9adc8d03a6734
   - enabled: 1
     path: Assets/Credits.unity
     guid: 914404ac8fe0142c9b09add73e3619cd
