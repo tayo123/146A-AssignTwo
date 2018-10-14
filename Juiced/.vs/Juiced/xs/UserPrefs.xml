@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{56F85FA6-C81C-21F6-39A1-889EEB20029D}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelComplete.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TutorialComplete.cs">
     <Files>
       <File FileName="Assets/Scripts/FollowPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="24" Column="67" />
-      <File FileName="Assets/Scripts/BlockSpawner.cs" Line="34" Column="87" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="24" Column="45" />
+      <File FileName="Assets/Scripts/BlockSpawner.cs" Line="34" Column="1" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="7" Column="22" />
       <File FileName="Assets/Scripts/PlayerCollision.cs" Line="32" Column="52" />
       <File FileName="Assets/Scripts/LevelComplete.cs" Line="6" Column="1" />
       <File FileName="Assets/Scripts/EndTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Shoot.cs" Line="15" Column="44" />
+      <File FileName="Assets/Scripts/Shoot.cs" Line="21" Column="73" />
       <File FileName="Assets/Scripts/Menu.cs" Line="1" Column="1" />
       <File FileName="Assets/TutorialManager.cs" Line="11" Column="44" />
       <File FileName="Assets/TutorialComplete.cs" Line="1" Column="1" />

@@ -29,6 +29,7 @@ public class PlayerCollision : MonoBehaviour
         {
             numPowerUps = numPowerUps + 1;
             Debug.Log(numPowerUps);
+            Debug.Log((100f / maxPowerUps) * numPowerUps);
             healthBar.sizeDelta = new Vector2((100f/maxPowerUps)*numPowerUps, healthBar.sizeDelta.y);
             Debug.Log("Hit Power Up");
             if (numPowerUps == maxPowerUps)

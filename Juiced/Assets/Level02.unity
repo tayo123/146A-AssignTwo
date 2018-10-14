@@ -224,6 +224,8 @@ MonoBehaviour:
   forwardForce: 5000
   collision: {fileID: 103066380}
   healthBar: {fileID: 535488305}
+  source: {fileID: 202368328}
+  clip: {fileID: 8300000, guid: f9dc8d9847657423fa659c4a60acf0c6, type: 3}
 --- !u!54 &103066376 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 54181685072776592, guid: 6c86bd62fad2b4c359a2c825744007b4,
@@ -394,9 +396,15 @@ Prefab:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114641637275724738, guid: 6c86bd62fad2b4c359a2c825744007b4, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6c86bd62fad2b4c359a2c825744007b4, type: 2}
   m_IsPrefabAsset: 0
+--- !u!82 &202368328 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82925730521535496, guid: 6c86bd62fad2b4c359a2c825744007b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 202368327}
 --- !u!1 &210626563 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1298206005352906, guid: 2fbbbc49267694cc9b00052741f65462,

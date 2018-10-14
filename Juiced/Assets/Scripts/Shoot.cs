@@ -8,9 +8,10 @@ public class Shoot : MonoBehaviour
     public float forwardForce = 5000f;
     public PlayerCollision collision;
     public RectTransform healthBar;
+    public AudioSource source;
+    public AudioClip clip;
 
-
-    void FixedUpdate()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && collision.canBlast)
         {
@@ -18,12 +19,13 @@ public class Shoot : MonoBehaviour
             collision.canBlast = false;
             collision.numPowerUps = 0;
             healthBar.sizeDelta = new Vector2(0, healthBar.sizeDelta.y);
-
         }
     }
 
+
     void Fire() {
         // Create the Bullet from the Bullet Prefab
+        source.PlayOneShot(clip, 2f);
         var bullet = (GameObject)Instantiate(
             bulletPrefab,
             bulletSpawn.position,
@@ -31,7 +33,7 @@ public class Shoot : MonoBehaviour
 
         // Add velocity to the bullet
         bullet.GetComponent<Rigidbody>().AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
-        rb.AddForce(0, 0, -20f, ForceMode.VelocityChange);
+        //rb.AddForce(0, 0, -20f, ForceMode.VelocityChange);
 
         // Destroy the bullet after 2 seconds
         Destroy(bullet, 2.0f);
